@@ -67,6 +67,15 @@ a {
 }
 
 /* adicionar regras CSS para cartões/cards e seu conteúdo aqui */
+.card {
+	width: 350px;
+	margin-bottom: 60px;
+	padding: 45px 45px 70px;
+}
+
+.card_image {
+	width: 100%;
+}
 
 .footer {
 	display: flex;
