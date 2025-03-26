@@ -71,6 +71,8 @@ a {
 	width: 350px;
 	margin-bottom: 60px;
 	padding: 45px 45px 70px;
+	background: #ffffff;
+	box-shadow: 4px 4px 5px rgba(255, 166, 33, 0.678);
 }
 
 .card_image {
