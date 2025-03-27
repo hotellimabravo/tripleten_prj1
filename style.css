@@ -50,9 +50,9 @@ a {
 .overlay {
 	width: 100%;
 	height: 100%;
+	background-image: url(./images/capa.jpg);
 	background-color: rgba(0, 0, 0, 0.5);
 	display: flex;
-	background-image: url(./images/capa.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -75,13 +75,35 @@ a {
 	box-shadow: 4px 4px 5px rgba(255, 166, 33, 0.678);
 }
 
+.card_title {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.text_card {
+	font-size: 16px;
+	text-align: justify;
+}
+
 .card_image {
+	margin-bottom: 25px;
 	width: 100%;
+	/* height: 200px;
+	object-fit: contain; */
 }
 
 .footer {
 	display: flex;
+	min-height: 300px;
+	background-color: #000000;
 	/* adicione aqui as regras restantes */
+}
+
+.mysignature {
+	font-size: 24px;
+	color: #4e4e4e;
+	margin: auto;
 }
 
 /* adicionar uma regra CSS para a assinatura do rodapé */
